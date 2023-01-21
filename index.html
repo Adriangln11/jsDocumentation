@@ -17,8 +17,8 @@
     
     <main id='main-doc'>
         <div class="hamburger-container">
-            <h1>Js Documentation</h1>
-            <button >
+            <h1>&lt;< Js Documentation >&gt;</h1>
+            <button onclick="toggleSidebar()">
                 <div></div>
                 <div></div>
                 <div></div>
@@ -26,22 +26,22 @@
         </div>
         
         <nav id="navbar">
-            <header>Js Documentation</header>
+            <header> &lt;Js Documentation&gt;</header>
 
-                <a href="#Introduction" class="nav-link">Introduction</a>
-                <a href="#What_you_should_already_know" class="nav-link">What you should already know</a>
-                <a href="#JavaScript_and_Java" class="nav-link">JavaScript and Java</a>
-                <a href="#Hello_world" class="nav-link">Hello world</a>
-                <a href="#Variables" class="nav-link">Variables</a>
-                <a href="#Declaring_variables" class="nav-link">Declaring variables</a>
-                <a href="#Variable_scope" class="nav-link">Variable scope</a>
-                <a href="#Global_variables" class="nav-link">Global variables</a>
-                <a href="#Constants" class="nav-link">Constants</a>
-                <a href="#Data_types" class="nav-link">Data types</a>
-                <a href="#If_else_statement" class="nav-link">If else statement</a>
-                <a href="#While_statement" class="nav-link">While statement</a>
-                <a href="#Function_declarations" class="nav-link">Function declarations</a>
-                <a href="#Reference" class="nav-link">Reference</a>
+                <a href="#Introduction" class="nav-link" onclick="toggleSidebar()" >Introduction</a>
+                <a href="#What_you_should_already_know" class="nav-link" onclick="toggleSidebar()">What you should already know</a>
+                <a href="#JavaScript_and_Java" class="nav-link" onclick="toggleSidebar()">JavaScript and Java</a>
+                <a href="#Hello_world" class="nav-link" onclick="toggleSidebar()">Hello world</a>
+                <a href="#Variables" class="nav-link" onclick="toggleSidebar()">Variables</a>
+                <a href="#Declaring_variables" class="nav-link" onclick="toggleSidebar()">Declaring variables</a>
+                <a href="#Variable_scope" class="nav-link" onclick="toggleSidebar()">Variable scope</a>
+                <a href="#Global_variables" class="nav-link" onclick="toggleSidebar()">Global variables</a>
+                <a href="#Constants" class="nav-link" onclick="toggleSidebar()">Constants</a>
+                <a href="#Data_types" class="nav-link" onclick="toggleSidebar()">Data types</a>
+                <a href="#If_else_statement" class="nav-link" onclick="toggleSidebar()">If else statement</a>
+                <a href="#While_statement" class="nav-link" onclick="toggleSidebar()">While statement</a>
+                <a href="#Function_declarations" class="nav-link" onclick="toggleSidebar()">Function declarations</a>
+                <a href="#Reference" class="nav-link" onclick="toggleSidebar()">Reference</a>
                 <ul class="icons-container">
                     <li><a target="_blank" class="icon" href="https://github.com/Adriangln11"><i class="bi bi-github"></i></a></li>
                     <li><a target="_blank" class="icon" href="https://www.linkedin.com/in/adrian-d%C3%ADaz-08738922a/"><i class="bi bi-linkedin"></i></a></li>
@@ -275,5 +275,8 @@
         </div>
         
     <main/>  
+    <script type="text/javascript">
+        const toggleSidebar = () => document.body.classList.toggle("open");
+    </script>
 <body/>
 </html>
